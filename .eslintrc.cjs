@@ -15,6 +15,7 @@ module.exports = {
   plugins: ["@typescript-eslint"],
   root: true,
   rules: {
+    "@typescript-eslint/consistent-type-definitions": "off",
     "@typescript-eslint/no-unused-vars": [
       "error",
       { argsIgnorePattern: "^_", varsIgnorePattern: "^_" },
